@@ -1,0 +1,18 @@
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .title  .inline-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  @media (max-width:760px){
+    .title{
+        font-size: 2rem;
+    }
+  }

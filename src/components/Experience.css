@@ -1,0 +1,64 @@
+.experience {
+    padding: 4rem 0;
+  }
+  
+  .experience-header {
+    margin-bottom: 2rem;
+  }
+  
+  
+  .experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+ 
+  .experience-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+  }
+  
+ 
+  .experience-left {
+    font-size: 2rem;
+    font-weight:500;
+  }
+  
+  .experience-right {
+    text-align: right;
+  }
+  .experience-right h5{
+   font-size: 1.5rem;
+   font-weight: 600;
+  }
+  .experience-date {
+    margin-top: 0.75rem;
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    .experience-item {
+      text-align: center;
+    }
+  
+    .experience-left,
+    .experience-right {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .experience-date {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width:480px) {
+    .experience-item{
+        flex-direction: column;
+    }
+  }
