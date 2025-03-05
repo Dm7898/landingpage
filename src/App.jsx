@@ -2,7 +2,7 @@ import Banner from "./components/Banner";
 import Blog from "./components/Blog";
 import Experience from "./components/Experience";
 import Expertise from "./components/Expertise";
-import FAQ from "./components/Faq";
+import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Testimonial from "./components/Testimonial";
@@ -18,7 +18,7 @@ function App() {
       <Experience />
       <Blog />
       <Testimonial />
-      <FAQ />
+      <Faq />
       <Footer />
     </>
   );
